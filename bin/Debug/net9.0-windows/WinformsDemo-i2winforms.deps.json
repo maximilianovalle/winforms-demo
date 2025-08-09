@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "WinformsDemo-i2winforms/1.0.0": {
+        "runtime": {
+          "WinformsDemo-i2winforms.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinformsDemo-i2winforms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

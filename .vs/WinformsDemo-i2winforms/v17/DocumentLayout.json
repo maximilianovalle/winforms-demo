@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\twofa\\Desktop\\repos\\winforms-practice\\WinformsDemo-i2winforms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83437A-5284-41C8-A070-EB64B4115151}|WinformsDemo-i2winforms.csproj|c:\\users\\twofa\\desktop\\repos\\winforms-practice\\winformsdemo-i2winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83437A-5284-41C8-A070-EB64B4115151}|WinformsDemo-i2winforms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83437A-5284-41C8-A070-EB64B4115151}|WinformsDemo-i2winforms.csproj|c:\\users\\twofa\\desktop\\repos\\winforms-practice\\winformsdemo-i2winforms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E83437A-5284-41C8-A070-EB64B4115151}|WinformsDemo-i2winforms.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E83437A-5284-41C8-A070-EB64B4115151}|WinformsDemo-i2winforms.csproj|c:\\users\\twofa\\desktop\\repos\\winforms-practice\\winformsdemo-i2winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1E83437A-5284-41C8-A070-EB64B4115151}|WinformsDemo-i2winforms.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\winforms-practice\\WinformsDemo-i2winforms\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\winforms-practice\\WinformsDemo-i2winforms\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T21:50:02.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\winforms-practice\\WinformsDemo-i2winforms\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\winforms-practice\\WinformsDemo-i2winforms\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T21:49:49.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\winforms-practice\\WinformsDemo-i2winforms\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\winforms-practice\\WinformsDemo-i2winforms\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T21:49:35.567Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
