@@ -34,7 +34,6 @@
             lastNameTextBox = new TextBox();
             DOBDateTime = new DateTimePicker();
             DOBLabel = new Label();
-            progressBar1 = new ProgressBar();
             genderOptionMan = new RadioButton();
             genderOptionWoman = new RadioButton();
             genderOptionOther = new RadioButton();
@@ -44,7 +43,7 @@
             // 
             // submitBtn
             // 
-            submitBtn.Location = new Point(311, 356);
+            submitBtn.Location = new Point(311, 353);
             submitBtn.Name = "submitBtn";
             submitBtn.Size = new Size(155, 49);
             submitBtn.TabIndex = 0;
@@ -54,7 +53,7 @@
             // 
             // firstNameTextBox
             // 
-            firstNameTextBox.Location = new Point(257, 63);
+            firstNameTextBox.Location = new Point(257, 65);
             firstNameTextBox.Name = "firstNameTextBox";
             firstNameTextBox.Size = new Size(117, 27);
             firstNameTextBox.TabIndex = 1;
@@ -63,7 +62,7 @@
             // 
             firstNameLabel.AutoSize = true;
             firstNameLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            firstNameLabel.Location = new Point(254, 40);
+            firstNameLabel.Location = new Point(254, 42);
             firstNameLabel.Name = "firstNameLabel";
             firstNameLabel.Size = new Size(86, 20);
             firstNameLabel.TabIndex = 2;
@@ -73,7 +72,7 @@
             // 
             lastNameLabel.AutoSize = true;
             lastNameLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lastNameLabel.Location = new Point(399, 40);
+            lastNameLabel.Location = new Point(399, 42);
             lastNameLabel.Name = "lastNameLabel";
             lastNameLabel.Size = new Size(84, 20);
             lastNameLabel.TabIndex = 4;
@@ -81,35 +80,29 @@
             // 
             // lastNameTextBox
             // 
-            lastNameTextBox.Location = new Point(402, 63);
+            lastNameTextBox.Location = new Point(402, 65);
             lastNameTextBox.Name = "lastNameTextBox";
             lastNameTextBox.Size = new Size(117, 27);
             lastNameTextBox.TabIndex = 3;
             // 
             // DOBDateTime
             // 
-            DOBDateTime.Location = new Point(257, 133);
+            DOBDateTime.Location = new Point(257, 135);
+            DOBDateTime.MinDate = new DateTime(1910, 1, 1, 0, 0, 0, 0);
             DOBDateTime.Name = "DOBDateTime";
             DOBDateTime.Size = new Size(262, 27);
             DOBDateTime.TabIndex = 5;
+            DOBDateTime.Value = new DateTime(2025, 8, 10, 0, 0, 0, 0);
             // 
             // DOBLabel
             // 
             DOBLabel.AutoSize = true;
             DOBLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            DOBLabel.Location = new Point(254, 110);
+            DOBLabel.Location = new Point(254, 112);
             DOBLabel.Name = "DOBLabel";
             DOBLabel.Size = new Size(100, 20);
             DOBLabel.TabIndex = 6;
             DOBLabel.Text = "Date of Birth";
-            // 
-            // progressBar1
-            // 
-            progressBar1.Location = new Point(328, 337);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(125, 13);
-            progressBar1.TabIndex = 8;
-            progressBar1.Value = 45;
             // 
             // genderOptionMan
             // 
@@ -152,7 +145,7 @@
             genderGroupBox.Controls.Add(genderOptionOther);
             genderGroupBox.Controls.Add(genderOptionWoman);
             genderGroupBox.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            genderGroupBox.Location = new Point(257, 186);
+            genderGroupBox.Location = new Point(257, 188);
             genderGroupBox.Name = "genderGroupBox";
             genderGroupBox.Size = new Size(262, 125);
             genderGroupBox.TabIndex = 12;
@@ -165,7 +158,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(genderGroupBox);
-            Controls.Add(progressBar1);
             Controls.Add(DOBLabel);
             Controls.Add(DOBDateTime);
             Controls.Add(lastNameLabel);
@@ -190,7 +182,6 @@
         private TextBox lastNameTextBox;
         private DateTimePicker DOBDateTime;
         private Label DOBLabel;
-        private ProgressBar progressBar1;
         private RadioButton genderOptionMan;
         private RadioButton genderOptionWoman;
         private RadioButton genderOptionOther;

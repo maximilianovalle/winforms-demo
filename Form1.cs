@@ -10,6 +10,7 @@ namespace WinformsDemo_i2winforms
         private void clearForm() {
             firstNameTextBox.Clear();
             lastNameTextBox.Clear();
+            genderOptionOther.Checked = true;
         }
 
         // -- EVENTS --
@@ -24,15 +25,15 @@ namespace WinformsDemo_i2winforms
 
             // display submitted data
             if (isInputLengthValid(firstName) && genderOptionMan.Checked == true) {
-                MessageBox.Show($"Successfully submitted data!\nFirst Name: {firstName}\nLast Name: {lastNameTextBox.Text}\nDOB: {DOBDateTime.Text}\nGender: Man");
+                MessageBox.Show($"Successfully submitted data!\nFIRST NAME: {firstName}\nLAST NAME: {lastNameTextBox.Text}\nDOB: {DOBDateTime.Text}\nGENDER: Man");
                 clearForm();
             }
             else if (isInputLengthValid(firstName) && genderOptionWoman.Checked == true) {
-                MessageBox.Show($"Successfully submitted data!\nFirst Name: {firstName}\nLast Name: {lastNameTextBox.Text}\nDOB: {DOBDateTime.Text}\nGender: Woman");
+                MessageBox.Show($"Successfully submitted data!\nFIRST NAME: {firstName}\nLAST NAME: {lastNameTextBox.Text}\nDOB: {DOBDateTime.Text}\nGENDER: Woman");
                 clearForm();
             }
             else if (isInputLengthValid(firstName) && genderOptionOther.Checked == true) {
-                MessageBox.Show($"Successfully submitted data!\nFirst Name: {firstName}\nLast Name: {lastNameTextBox.Text}\nDOB: {DOBDateTime.Text}\nGender: Other");
+                MessageBox.Show($"Successfully submitted data!\nFIRST NAME: {firstName}\nLAST NAME: {lastNameTextBox.Text}\nDOB: {DOBDateTime.Text}\nGENDER: Other");
                 clearForm();
             }
             else {
