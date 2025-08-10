@@ -2,7 +2,7 @@
 
 ## About The Project
 
-![output](./Solution_Items/output.gif)
+![output](./output.gif)
 
 Learning Windows Forms in .NET 9!
 

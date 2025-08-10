@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\winforms-practice\\WinformsDemo-i2winforms\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-08-10T17:45:35.111Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\winforms-practice\\WinformsDemo-i2winforms\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T17:35:31.525Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-10T17:35:31.525Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T17:28:41.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T17:28:41.834Z"
             }
           ]
         }
