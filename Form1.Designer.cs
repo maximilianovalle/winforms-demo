@@ -1,6 +1,6 @@
 ﻿namespace WinformsDemo_i2winforms
 {
-    partial class Form1
+    partial class userInfoForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -27,133 +27,173 @@
         ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            button1 = new Button();
-            textBox1 = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            textBox2 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            label3 = new Label();
-            checkedListBox1 = new CheckedListBox();
-            label4 = new Label();
+            submitBtn = new Button();
+            firstNameTextBox = new TextBox();
+            firstNameLabel = new Label();
+            lastNameLabel = new Label();
+            lastNameTextBox = new TextBox();
+            DOBDateTime = new DateTimePicker();
+            DOBLabel = new Label();
             progressBar1 = new ProgressBar();
+            genderOptionMan = new RadioButton();
+            genderOptionWoman = new RadioButton();
+            genderOptionOther = new RadioButton();
+            genderGroupBox = new GroupBox();
+            genderGroupBox.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // submitBtn
             // 
-            button1.Location = new Point(311, 363);
-            button1.Name = "button1";
-            button1.Size = new Size(155, 49);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            submitBtn.Location = new Point(311, 356);
+            submitBtn.Name = "submitBtn";
+            submitBtn.Size = new Size(155, 49);
+            submitBtn.TabIndex = 0;
+            submitBtn.Text = "Submit";
+            submitBtn.UseVisualStyleBackColor = true;
+            submitBtn.Click += submitBtn_Click;
             // 
-            // textBox1
+            // firstNameTextBox
             // 
-            textBox1.Location = new Point(259, 53);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(117, 27);
-            textBox1.TabIndex = 1;
+            firstNameTextBox.Location = new Point(257, 63);
+            firstNameTextBox.Name = "firstNameTextBox";
+            firstNameTextBox.Size = new Size(117, 27);
+            firstNameTextBox.TabIndex = 1;
             // 
-            // label1
+            // firstNameLabel
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(259, 30);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 2;
-            label1.Text = "label1";
+            firstNameLabel.AutoSize = true;
+            firstNameLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            firstNameLabel.Location = new Point(254, 40);
+            firstNameLabel.Name = "firstNameLabel";
+            firstNameLabel.Size = new Size(86, 20);
+            firstNameLabel.TabIndex = 2;
+            firstNameLabel.Text = "First Name";
             // 
-            // label2
+            // lastNameLabel
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(404, 30);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 4;
-            label2.Text = "label2";
+            lastNameLabel.AutoSize = true;
+            lastNameLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lastNameLabel.Location = new Point(399, 40);
+            lastNameLabel.Name = "lastNameLabel";
+            lastNameLabel.Size = new Size(84, 20);
+            lastNameLabel.TabIndex = 4;
+            lastNameLabel.Text = "Last Name";
             // 
-            // textBox2
+            // lastNameTextBox
             // 
-            textBox2.Location = new Point(404, 53);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(117, 27);
-            textBox2.TabIndex = 3;
+            lastNameTextBox.Location = new Point(402, 63);
+            lastNameTextBox.Name = "lastNameTextBox";
+            lastNameTextBox.Size = new Size(117, 27);
+            lastNameTextBox.TabIndex = 3;
             // 
-            // dateTimePicker1
+            // DOBDateTime
             // 
-            dateTimePicker1.Location = new Point(259, 123);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(262, 27);
-            dateTimePicker1.TabIndex = 5;
+            DOBDateTime.Location = new Point(257, 133);
+            DOBDateTime.Name = "DOBDateTime";
+            DOBDateTime.Size = new Size(262, 27);
+            DOBDateTime.TabIndex = 5;
             // 
-            // label3
+            // DOBLabel
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(259, 100);
-            label3.Name = "label3";
-            label3.Size = new Size(50, 20);
-            label3.TabIndex = 6;
-            label3.Text = "label3";
-            // 
-            // checkedListBox1
-            // 
-            checkedListBox1.Items.AddRange(new object[] { "test1", "test2", "test3" });
-            checkedListBox1.Location = new Point(292, 198);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(191, 114);
-            checkedListBox1.TabIndex = 0;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(292, 175);
-            label4.Name = "label4";
-            label4.Size = new Size(50, 20);
-            label4.TabIndex = 7;
-            label4.Text = "label4";
+            DOBLabel.AutoSize = true;
+            DOBLabel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            DOBLabel.Location = new Point(254, 110);
+            DOBLabel.Name = "DOBLabel";
+            DOBLabel.Size = new Size(100, 20);
+            DOBLabel.TabIndex = 6;
+            DOBLabel.Text = "Date of Birth";
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(328, 344);
+            progressBar1.Location = new Point(328, 337);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(125, 13);
             progressBar1.TabIndex = 8;
             progressBar1.Value = 45;
             // 
-            // Form1
+            // genderOptionMan
+            // 
+            genderOptionMan.AutoSize = true;
+            genderOptionMan.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            genderOptionMan.Location = new Point(25, 26);
+            genderOptionMan.Name = "genderOptionMan";
+            genderOptionMan.Size = new Size(59, 24);
+            genderOptionMan.TabIndex = 9;
+            genderOptionMan.Text = "Man";
+            genderOptionMan.UseVisualStyleBackColor = true;
+            // 
+            // genderOptionWoman
+            // 
+            genderOptionWoman.AutoSize = true;
+            genderOptionWoman.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            genderOptionWoman.Location = new Point(25, 56);
+            genderOptionWoman.Name = "genderOptionWoman";
+            genderOptionWoman.Size = new Size(81, 24);
+            genderOptionWoman.TabIndex = 10;
+            genderOptionWoman.Text = "Woman";
+            genderOptionWoman.UseVisualStyleBackColor = true;
+            // 
+            // genderOptionOther
+            // 
+            genderOptionOther.AutoSize = true;
+            genderOptionOther.Checked = true;
+            genderOptionOther.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            genderOptionOther.Location = new Point(25, 86);
+            genderOptionOther.Name = "genderOptionOther";
+            genderOptionOther.Size = new Size(67, 24);
+            genderOptionOther.TabIndex = 11;
+            genderOptionOther.TabStop = true;
+            genderOptionOther.Text = "Other";
+            genderOptionOther.UseVisualStyleBackColor = true;
+            // 
+            // genderGroupBox
+            // 
+            genderGroupBox.Controls.Add(genderOptionMan);
+            genderGroupBox.Controls.Add(genderOptionOther);
+            genderGroupBox.Controls.Add(genderOptionWoman);
+            genderGroupBox.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            genderGroupBox.Location = new Point(257, 186);
+            genderGroupBox.Name = "genderGroupBox";
+            genderGroupBox.Size = new Size(262, 125);
+            genderGroupBox.TabIndex = 12;
+            genderGroupBox.TabStop = false;
+            genderGroupBox.Text = "Gender";
+            // 
+            // userInfoForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(genderGroupBox);
             Controls.Add(progressBar1);
-            Controls.Add(label4);
-            Controls.Add(checkedListBox1);
-            Controls.Add(label3);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(label2);
-            Controls.Add(textBox2);
-            Controls.Add(label1);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
-            Name = "Form1";
-            Text = "Form1";
+            Controls.Add(DOBLabel);
+            Controls.Add(DOBDateTime);
+            Controls.Add(lastNameLabel);
+            Controls.Add(lastNameTextBox);
+            Controls.Add(firstNameLabel);
+            Controls.Add(firstNameTextBox);
+            Controls.Add(submitBtn);
+            Name = "userInfoForm";
+            Text = "User Info";
+            genderGroupBox.ResumeLayout(false);
+            genderGroupBox.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private TextBox textBox1;
-        private Label label1;
-        private Label label2;
-        private TextBox textBox2;
-        private DateTimePicker dateTimePicker1;
-        private Label label3;
-        private CheckedListBox checkedListBox1;
-        private Label label4;
+        private Button submitBtn;
+        private TextBox firstNameTextBox;
+        private Label firstNameLabel;
+        private Label lastNameLabel;
+        private TextBox lastNameTextBox;
+        private DateTimePicker DOBDateTime;
+        private Label DOBLabel;
         private ProgressBar progressBar1;
+        private RadioButton genderOptionMan;
+        private RadioButton genderOptionWoman;
+        private RadioButton genderOptionOther;
+        private GroupBox genderGroupBox;
     }
 }

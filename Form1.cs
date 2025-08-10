@@ -1,18 +1,43 @@
-// Double-click a [Design] file element to initialize an event below
+// Double-click a [Design] file element to create an event below
 
 namespace WinformsDemo_i2winforms
 {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class userInfoForm : Form {
+        private bool isInputLengthValid(string input) {
+            return input.Length >= 2;
+        }
+
+        private void clearForm() {
+            firstNameTextBox.Clear();
+            lastNameTextBox.Clear();
+        }
+
+        // -- EVENTS --
+
+        public userInfoForm() {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;    // opens form center screen
         }
 
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e) {
+        private void submitBtn_Click(object sender, EventArgs e) {
+            string firstName = firstNameTextBox.Text;
 
-        }
-
-        private void button1_Click(object sender, EventArgs e) {
-
+            // display submitted data
+            if (isInputLengthValid(firstName) && genderOptionMan.Checked == true) {
+                MessageBox.Show($"Successfully submitted data!\nFirst Name: {firstName}\nLast Name: {lastNameTextBox.Text}\nDOB: {DOBDateTime.Text}\nGender: Man");
+                clearForm();
+            }
+            else if (isInputLengthValid(firstName) && genderOptionWoman.Checked == true) {
+                MessageBox.Show($"Successfully submitted data!\nFirst Name: {firstName}\nLast Name: {lastNameTextBox.Text}\nDOB: {DOBDateTime.Text}\nGender: Woman");
+                clearForm();
+            }
+            else if (isInputLengthValid(firstName) && genderOptionOther.Checked == true) {
+                MessageBox.Show($"Successfully submitted data!\nFirst Name: {firstName}\nLast Name: {lastNameTextBox.Text}\nDOB: {DOBDateTime.Text}\nGender: Other");
+                clearForm();
+            }
+            else {
+                MessageBox.Show($"First name must be at least 2 characters long.");
+            }
         }
     }
 }
